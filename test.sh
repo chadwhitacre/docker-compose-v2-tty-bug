@@ -17,6 +17,7 @@ $dcm2 build testing
 $dcm1 $args
 $dcm2 $args
 
+# https://unix.stackexchange.com/a/145654/108960
 exec &> >(tee -a "log")
 
 # Docker Compose v1 works fine here ...

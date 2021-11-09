@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+rm -f log
+
 dcm1="docker-compose"
 dcm2="docker compose"
 args="--ansi never run --rm testing"

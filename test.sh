@@ -5,7 +5,7 @@ rm -f log
 
 dcm1="docker-compose"
 dcm2="docker compose"
-args="--ansi never run --rm testing"
+args="run --rm testing"
 
 # Setup
 $dcm2 down --remove-orphans testing
